@@ -1,8 +1,3 @@
-salt
-====
-
-DOM query shortcuts - Fork of @james2doyle's version
-```
 function $(s, el) {
 	return (el || document)[{
 	'#': 'getElementById',
@@ -12,4 +7,3 @@ function $(s, el) {
 	'^': 'querySelector'}[s[0]]
 	|| 'querySelectorAll'](s.slice(1));
 }
-```

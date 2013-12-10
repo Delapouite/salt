@@ -1,0 +1,23 @@
+{
+  "name": "salt",
+  "main": "salt.js",
+  "version": "0.1.0",
+  "homepage": "https://github.com/Delapouite/salt",
+  "authors": [
+    "James Doyle <james2doyle@gmail.com>",
+    "Delapouite <delapouite@gmail.com>"
+  ],
+  "description": "DOM query shortcuts",
+  "keywords": [
+    "DOM"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "salt.max.js"
+  ]
+}
